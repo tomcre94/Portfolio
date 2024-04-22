@@ -3,7 +3,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import logo from '../Assets/logo.png';
-import { Link } from 'react-router-dom';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -43,37 +42,25 @@ function NavBar() {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='ms-auto' defaultActiveKey='#home'>
             <Nav.Item>
-              <Nav.Link as={Link} to='/' onClick={() => updateExpanded(false)}>
+              <Nav.Link href='#home' onClick={() => updateExpanded(false)}>
                 &lt;/ Home&gt;
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to='/about'
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href='#about' onClick={() => updateExpanded(false)}>
                 &lt;/ AboutMe&gt;
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to='/project'
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href='#projects' onClick={() => updateExpanded(false)}>
                 &lt;/ Projects&gt;
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to='/resume'
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href='#resume' onClick={() => updateExpanded(false)}>
                 &lt;/ Resume&gt;
               </Nav.Link>
             </Nav.Item>
