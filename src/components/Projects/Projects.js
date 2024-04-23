@@ -27,8 +27,7 @@ function Projects() {
               isBlog={false}
               title='Booki'
               description='Project as part of my web developer training at Openclassroom. The aim of this exercise was to discover, understand and get to grips with the basic website creation HTML and CSS. Project to create the of an online accommodation booking site : Booki.'
-              ghLink='https://github.com/soumyajit4419/Chatify'
-              demoLink='https://chatify-49.web.app/'
+              ghLink='https://github.com/tomcre94/Projet-n2.git'
             />
           </Col>
 
@@ -38,8 +37,7 @@ function Projects() {
               isBlog={false}
               title='Kasa'
               description='Development of a website for an apartment rental company. My role was to create the front-end of the site using React from a given mockup so that it would display the accommodations dynamically using an API. I also had to create the animations for the Collapses components. Site development with React: React components, React Router routes, props, state, use of Sass ...'
-              ghLink='https://github.com/soumyajit4419/Bits-0f-C0de'
-              demoLink='https://blogs.soumya-jit.tech/'
+              ghLink='https://github.com/tomcre94/Projet-6.git'
             />
           </Col>
 
@@ -56,8 +54,7 @@ function Projects() {
               - make modifications related to site accessibility;
               - produce an optimization report presenting all your actions and their impact. 
               Chrome DevTools ; Lighthouse ; Intervention report'
-              ghLink='https://github.com/soumyajit4419/Editor.io'
-              demoLink='https://editor.soumya-jit.tech/'
+              ghLink='https://github.com/tomcre94/Projet-5.git'
             />
           </Col>
 
@@ -65,7 +62,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title='Mon vieux grimoire website'
+              title='Mon vieux grimoire backend'
               description='My role was to create a server with Express and connect it to a MongoDB database. This involved setting up the server structure and managing communication between the server and the database.
               I had to develop the data models and implement CRUD (Create, Read, Update, Delete) operations for managing books and notations. I had to pay particular attention to data security and secure storage.
                
@@ -73,8 +70,7 @@ function Projects() {
               I used Mongoose to model the MongoDB data, and followed an MVC (Model-View-Controller) architecture to structure the application.
               
               Javascript, NodeJS, Express, postMan ... '
-              ghLink='https://github.com/soumyajit4419/Plant_AI'
-              demoLink='https://plant49-ai.herokuapp.com/'
+              ghLink='https://github.com/tomcre94/Projet-7.git'
             />
           </Col>
         </Row>
