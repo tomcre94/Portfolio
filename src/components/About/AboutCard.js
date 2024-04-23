@@ -18,17 +18,17 @@ function AboutCard() {
             OpenClassrooms.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, I'm interested in :
           </p>
           <ul>
             <li className='about-activity'>
-              <ImPointRight /> Playing Games
-            </li>
-            <li className='about-activity'>
-              <ImPointRight /> Playing the piano
+              <ImPointRight /> Culture : classical music, museums, cinema, ...
             </li>
             <li className='about-activity'>
               <ImPointRight /> Sports : running, boxing, judo, ...
+            </li>
+            <li className='about-activity'>
+              <ImPointRight /> Playing the piano
             </li>
           </ul>
 

@@ -25,8 +25,8 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title='Chatify'
-              description='Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.'
+              title='Booki'
+              description='Project as part of my web developer training at Openclassroom. The aim of this exercise was to discover, understand and get to grips with the basic website creation HTML and CSS. Project to create the of an online accommodation booking site : Booki.'
               ghLink='https://github.com/soumyajit4419/Chatify'
               demoLink='https://chatify-49.web.app/'
             />
@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title='Bits-0f-C0de'
-              description='My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown.'
+              title='Kasa'
+              description='Development of a website for an apartment rental company. My role was to create the front-end of the site using React from a given mockup so that it would display the accommodations dynamically using an API. I also had to create the animations for the Collapses components. Site development with React: React components, React Router routes, props, state, use of Sass ...'
               ghLink='https://github.com/soumyajit4419/Bits-0f-C0de'
               demoLink='https://blogs.soumya-jit.tech/'
             />
@@ -47,8 +47,15 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title='Editor.io'
-              description='Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage'
+              title='Nina Carducci website'
+              description='My role was to improve overall performance, SEO, accessibility and correct a few typos in the code of a photographers portfolio website.
+              I had to :
+              - optimize the overall performance and SEO of the site;
+              - implement local SEO using Schema.org ;
+              - add metas for social networks;
+              - make modifications related to site accessibility;
+              - produce an optimization report presenting all your actions and their impact. 
+              Chrome DevTools ; Lighthouse ; Intervention report'
               ghLink='https://github.com/soumyajit4419/Editor.io'
               demoLink='https://editor.soumya-jit.tech/'
             />
@@ -58,33 +65,16 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title='Plant AI'
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title='Mon vieux grimoire website'
+              description='My role was to create a server with Express and connect it to a MongoDB database. This involved setting up the server structure and managing communication between the server and the database.
+              I had to develop the data models and implement CRUD (Create, Read, Update, Delete) operations for managing books and notations. I had to pay particular attention to data security and secure storage.
+               
+              I also implemented a secure authentication system for site users, managed the downloading and optimization of images (Green Code), and added features for rating books and calculating the average score.
+              I used Mongoose to model the MongoDB data, and followed an MVC (Model-View-Controller) architecture to structure the application.
+              
+              Javascript, NodeJS, Express, postMan ... '
               ghLink='https://github.com/soumyajit4419/Plant_AI'
               demoLink='https://plant49-ai.herokuapp.com/'
-            />
-          </Col>
-
-          <Col md={4} className='project-card'>
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title='Ai For Social Good'
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink='https://github.com/soumyajit4419/AI_For_Social_Good'
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className='project-card'>
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title='Face Recognition and Emotion Detection'
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink='https://github.com/soumyajit4419/Face_And_Emotion_Detection'
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>
