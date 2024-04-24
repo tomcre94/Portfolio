@@ -43,9 +43,13 @@ function ProjectCards(props) {
           </Button>
           <br />
           <br />
-          <Button variant='primary' href={props.ghLink} target='_blank'>
-            <BsGithub /> &nbsp;
-            {props.isBlog ? 'Blog' : 'GitHub'}
+          <Button
+            className='gitHubButton'
+            variant='primary'
+            href={props.ghLink}
+            target='_blank'
+          >
+            <BsGithub />
           </Button>
         </Card.Body>
       </Card>
