@@ -510,6 +510,32 @@ button:focus {
   height: 350px;
   object-fit: contain;
 }
+.modal{
+    .modal-content{
+    background-color: #0c0513;
+    color: white;
+  }
+  .modal-header {
+    text-align: center; 
+  }
+  --bs-modal-header-padding-x: 0rem !important;
+  --bs-modal-header-padding-y: 0rem !important;
+
+  .modal-header > .modal-title {
+    margin: auto; 
+  }
+  --bs-modal-width: 1200px !important;
+  img {
+    height:550px;
+    object-fit: contain;
+  }
+  .btn-close{
+    color: white;
+  }
+  .modal-footer{
+    justify-content: center !important;
+  }
+}
 
 .blog-img {
   padding: 0px !important;

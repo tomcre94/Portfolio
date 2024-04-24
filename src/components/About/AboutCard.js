@@ -1,6 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { ImPointRight } from 'react-icons/im';
+import pdf from '../../Assets/../Assets/CV_2024-04-22_Tom_Creuse.pdf';
+import { AiOutlineDownload } from 'react-icons/ai';
+import { Row } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 function AboutCard() {
   return (
@@ -11,8 +15,8 @@ function AboutCard() {
             Hi Everyone, I am <span className='purple'> Tom Creuse </span>
             from <span className='purple'> Vincennes, France.</span>
             <br />
-            I am currently working at employed in the digital department of the
-            french Ministry of the Economy and Finance.
+            I am currently employed in the digital department of the french
+            Ministry of the Economy and Finance.
             <br />
             I have a Master's degree in law and a diploma in web development at
             OpenClassrooms.
@@ -31,7 +35,18 @@ function AboutCard() {
               <ImPointRight /> Playing the piano
             </li>
           </ul>
-
+          <Row style={{ justifyContent: 'center', position: 'relative' }}>
+            <Button
+              variant='primary'
+              href={pdf}
+              target='_blank'
+              style={{ maxWidth: '250px' }}
+            >
+              <AiOutlineDownload />
+              &nbsp;Download my resume
+            </Button>
+          </Row>
+          <br />
           <p style={{ color: 'rgb(155 126 172)' }}>
             "The change you want to see in the world starts with yourself."{' '}
           </p>

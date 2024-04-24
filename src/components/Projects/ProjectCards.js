@@ -50,7 +50,7 @@ function ProjectCards(props) {
         </Card.Body>
       </Card>
 
-      <Modal show={showModal} onHide={handleCloseModal}>
+      <Modal id='modalId' show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton>
           <Modal.Title>{props.title}</Modal.Title>
         </Modal.Header>

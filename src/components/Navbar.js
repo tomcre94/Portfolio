@@ -60,8 +60,8 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href='#resume' onClick={() => updateExpanded(false)}>
-                &lt;/ Resume&gt;
+              <Nav.Link href='#contactme' onClick={() => updateExpanded(false)}>
+                &lt;/ ContactMe&gt;
               </Nav.Link>
             </Nav.Item>
           </Nav>
