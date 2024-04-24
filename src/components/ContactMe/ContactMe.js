@@ -26,11 +26,45 @@ function ContactForm() {
 
   return (
     <form id='contactme' onSubmit={sendEmail}>
-      <input type='hidden' name='to_name' value='Destinataire' />
-      <input type='text' name='from_name' placeholder='Your Name' />
-      <input type='email' name='reply_to' placeholder='Your Email' />
-      <input type='text' name='subject' placeholder='Subject' />
-      <textarea name='message' placeholder='Your Message'></textarea>
+      <div class='form-group'>
+        <label for='from_name'>Your Name</label>
+        <input
+          type='text'
+          id='from_name'
+          name='from_name'
+          placeholder='Enter your name'
+          required
+        />
+      </div>
+      <div class='form-group'>
+        <label for='reply_to'>Your Email</label>
+        <input
+          type='email'
+          id='reply_to'
+          name='reply_to'
+          placeholder='Enter your email'
+          required
+        />
+      </div>
+      <div class='form-group'>
+        <label for='subject'>Subject</label>
+        <input
+          type='text'
+          id='subject'
+          name='subject'
+          placeholder='Enter subject'
+          required
+        />
+      </div>
+      <div class='form-group'>
+        <label for='message'>Your Message</label>
+        <textarea
+          id='message'
+          name='message'
+          placeholder='Enter your message'
+          required
+        ></textarea>
+      </div>
       <button type='submit'>Send</button>
     </form>
   );

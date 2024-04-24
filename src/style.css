@@ -398,6 +398,72 @@ button:focus {
   color: #700c86 !important;
 }
 
+
+
+/* */
+/* ContactMe */
+
+#contactme {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px; /* Ajustez la largeur maximale selon vos besoins */
+  margin: 0 auto; /* Centrer horizontalement */
+}
+
+#contactme input[type='text'],
+#contactme input[type='email'],
+#contactme textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#contactme input[type='text'],
+#contactme input[type='email'] {
+  width: 100%;
+}
+
+#contactme textarea {
+  width: 100%;
+  height: 150px; /* Ajustez la hauteur selon vos besoins */
+}
+#contactme label {
+  color:white;
+  margin-bottom: 5px;
+  align-items: start;
+}
+#contactme .form-group {
+  display: flex;
+  flex-direction: column;
+}
+#contactme button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contactme button:hover {
+  background-color: #0056b3; /* Couleur de survol */
+}
+
+/* Titres */
+#contactme input[type='text']::placeholder,
+#contactme input[type='email']::placeholder,
+#contactme textarea::placeholder {
+  color: white; /* Couleur du texte des placeholders */
+}
+
+/* Messages d'erreur */
+#contactme span {
+  color: red;
+}
+
+
 /* --------- */
 /* Footer */
 /* --------- */
