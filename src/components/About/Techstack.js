@@ -7,7 +7,7 @@ import {
   DiMongodb,
   DiGit,
 } from 'react-icons/di';
-import { SiRedis, SiFirebase, SiNextdotjs, SiPostgresql } from 'react-icons/si';
+import { SiNextdotjs, SiPostgresql } from 'react-icons/si';
 
 function Techstack() {
   return (
