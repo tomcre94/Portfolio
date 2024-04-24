@@ -408,7 +408,8 @@ button:focus {
   flex-direction: column;
   max-width: 400px; 
   margin: 0 auto;
-  color: white; 
+  color: white;
+  margin-bottom: 70px; 
 }
 
 #contactme input[type='text'],
@@ -464,9 +465,11 @@ button:focus {
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
+  position: fixed;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  color:white;
 }
 .footer-copywright {
   text-align: center !important;

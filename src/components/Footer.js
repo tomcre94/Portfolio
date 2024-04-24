@@ -18,6 +18,7 @@ function Footer() {
         <Col md='4' className='footer-body'>
           <ul className='footer-icons'>
             <li className='social-icons'>
+              Connect with me :&nbsp;&nbsp;
               <a
                 href='https://github.com/tomcre94'
                 style={{ color: 'white' }}
