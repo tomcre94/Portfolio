@@ -2,10 +2,19 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCards from './ProjectCards';
 import Particle from '../Particle';
-import leaf from '../../Assets/Projects/leaf.png';
-import editor from '../../Assets/Projects/codeEditor.png';
-import chatify from '../../Assets/Projects/chatify.png';
-import bitsOfCode from '../../Assets/Projects/blog.png';
+const importAll = (r) => r.keys().map(r);
+const bookiImages = importAll(
+  require.context('../../Assets/Projects/Booki', false, /\.(png|jpe?g|svg)$/)
+);
+const grimoireImages = importAll(
+  require.context('../../Assets/Projects/Grimoire', false, /\.(png|jpe?g|svg)$/)
+);
+const kasaImages = importAll(
+  require.context('../../Assets/Projects/Kasa', false, /\.(png|jpe?g|svg)$/)
+);
+const ninaImages = importAll(
+  require.context('../../Assets/Projects/Nina', false, /\.(png|jpe?g|svg)$/)
+);
 
 function Projects() {
   return (
@@ -21,31 +30,31 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className='project-card'>
             <ProjectCards
-              imgPath={chatify}
+              imgPath={bookiImages[0]}
               isBlog={false}
               title='Booki'
               description='Project to create the frontend of an online accommodation booking site : Booki.'
               detailedDescription='Project as part of my web developer training at Openclassroom. The aim of this exercise was to discover, understand and get to grips with the basic website creation HTML and CSS. Project to create the of an online accommodation booking site : Booki.'
               ghLink='https://github.com/tomcre94/Projet-n2.git'
-              carouselImages={[editor, leaf, chatify]}
+              carouselImages={bookiImages}
             />
           </Col>
 
           <Col md={4} className='project-card'>
             <ProjectCards
-              imgPath={bitsOfCode}
+              imgPath={kasaImages[0]}
               isBlog={false}
               title='Kasa'
               description='Development of a website for an apartment rental company.'
               detailedDescription='Development of a website for an apartment rental company. My role was to create the front-end of the site using React from a given mockup so that it would display the accommodations dynamically using an API. I also had to create the animations for the Collapses components. Site development with React: React components, React Router routes, props, state, use of Sass ...'
               ghLink='https://github.com/tomcre94/Projet-6.git'
-              carouselImages={[editor, leaf, chatify]}
+              carouselImages={kasaImages}
             />
           </Col>
 
           <Col md={4} className='project-card'>
             <ProjectCards
-              imgPath={editor}
+              imgPath={ninaImages[0]}
               isBlog={false}
               title='Nina Carducci website'
               description='Improvement performance, SEO, accessibility and correct a few typos in the code of a photographers portfolio website.'
@@ -58,13 +67,13 @@ function Projects() {
               - produce an optimization report presenting all your actions and their impact. 
               Chrome DevTools ; Lighthouse ; Intervention report'
               ghLink='https://github.com/tomcre94/Projet-5.git'
-              carouselImages={[editor, leaf, chatify]}
+              carouselImages={ninaImages}
             />
           </Col>
 
           <Col md={4} className='project-card'>
             <ProjectCards
-              imgPath={leaf}
+              imgPath={grimoireImages[0]}
               isBlog={false}
               title='Mon vieux grimoire backend'
               description='Create a server with Express and managing communication with the database (MongoDB).
@@ -77,7 +86,7 @@ function Projects() {
               
               Javascript, NodeJS, Express, postMan ...'
               ghLink='https://github.com/tomcre94/Projet-7.git'
-              carouselImages={[editor, leaf, chatify]}
+              carouselImages={grimoireImages}
             />
           </Col>
         </Row>
