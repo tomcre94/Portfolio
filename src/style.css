@@ -406,8 +406,9 @@ button:focus {
 #contactme {
   display: flex;
   flex-direction: column;
-  max-width: 400px; /* Ajustez la largeur maximale selon vos besoins */
-  margin: 0 auto; /* Centrer horizontalement */
+  max-width: 400px; 
+  margin: 0 auto;
+  color: white; 
 }
 
 #contactme input[type='text'],
@@ -427,10 +428,9 @@ button:focus {
 
 #contactme textarea {
   width: 100%;
-  height: 150px; /* Ajustez la hauteur selon vos besoins */
+  height: 150px; 
 }
 #contactme label {
-  color:white;
   margin-bottom: 5px;
   align-items: start;
 }
@@ -439,16 +439,11 @@ button:focus {
   flex-direction: column;
 }
 #contactme button {
-  background-color: #007bff;
-  color: white;
+  background-color: #c770f0;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-#contactme button:hover {
-  background-color: #0056b3; /* Couleur de survol */
 }
 
 /* Titres */

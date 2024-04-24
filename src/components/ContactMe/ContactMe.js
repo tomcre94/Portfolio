@@ -26,6 +26,7 @@ function ContactForm() {
 
   return (
     <form id='contactme' onSubmit={sendEmail}>
+      <h2>Contact me!</h2>
       <div class='form-group'>
         <label for='from_name'>Your Name</label>
         <input
