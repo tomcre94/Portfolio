@@ -43,25 +43,25 @@ function NavBar() {
           <Nav className='ms-auto' defaultActiveKey='#home'>
             <Nav.Item>
               <Nav.Link href='#home' onClick={() => updateExpanded(false)}>
-                &lt;/ Home&gt;
+                &lt;Home /&gt;
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link href='#about' onClick={() => updateExpanded(false)}>
-                &lt;/ AboutMe&gt;
+                &lt;AboutMe /&gt;
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link href='#projects' onClick={() => updateExpanded(false)}>
-                &lt;/ Projects&gt;
+                &lt;Projects /&gt;
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link href='#contactme' onClick={() => updateExpanded(false)}>
-                &lt;/ ContactMe&gt;
+                &lt;ContactMe /&gt;
               </Nav.Link>
             </Nav.Item>
           </Nav>

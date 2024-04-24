@@ -14,12 +14,12 @@ function AboutCard() {
           <p style={{ textAlign: 'justify' }}>
             Hi Everyone, I am <span className='purple'> Tom Creuse </span>
             from <span className='purple'> Vincennes, France.</span>
+            <br /> I've been working in french administration for the last ten
+            years in differents subjects. I am currently employed in the digital
+            department of the french Ministry of the Economy and Finance.
             <br />
-            I am currently employed in the digital department of the french
-            Ministry of the Economy and Finance.
-            <br />
-            I have a Master's degree in law and a diploma in web development at
-            OpenClassrooms.
+            I have a Master's degree in law, but recently i decided to learn how
+            to code and I got my diploma in web development at OpenClassrooms.
             <br />
             <br />
             Apart from coding, I'm interested in :
