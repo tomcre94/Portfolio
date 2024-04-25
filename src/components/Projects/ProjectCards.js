@@ -52,6 +52,11 @@ function ProjectCards(props) {
           >
             <BsGithub />
           </Button>
+          <br />
+          <br />
+          <Button variant='primary' href={props.demoLink} target='_blank'>
+            See demo
+          </Button>
         </Card.Body>
       </Card>
 

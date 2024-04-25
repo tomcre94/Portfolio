@@ -43,6 +43,7 @@ function Projects() {
               Project to create the of an online accommodation booking site : Booki.'
               ghLink='https://github.com/tomcre94/Projet-n2.git'
               carouselImages={bookiImages}
+              demoLink='https://projetn-2ynsv7ez6-tomcre94s-projects.vercel.app/'
             />
           </Col>
 
@@ -55,6 +56,7 @@ function Projects() {
               detailedDescription='Development of a website for an apartment rental company. My role was to create the front-end of the site using React from a given mockup so that it would display the accommodations dynamically using an API. I also had to create the animations for the Collapses components. Site development with React: React components, React Router routes, props, state, use of Sass ...'
               ghLink='https://github.com/tomcre94/Projet-6.git'
               carouselImages={kasaImages}
+              demoLink='https://projet-6-dvzhi9zgd-tomcre94s-projects.vercel.app/'
             />
           </Col>
 
@@ -74,6 +76,7 @@ function Projects() {
               Chrome DevTools ; Lighthouse ; Intervention report'
               ghLink='https://github.com/tomcre94/Projet-5.git'
               carouselImages={ninaImages}
+              demoLink='https://projet-5-3fnxz02lp-tomcre94s-projects.vercel.app/'
             />
           </Col>
 
@@ -93,6 +96,7 @@ function Projects() {
               Javascript, NodeJS, Express, postMan ...'
               ghLink='https://github.com/tomcre94/Projet-7.git'
               carouselImages={grimoireImages}
+              demoLink='https://projet-7-n0hqtgi0v-tomcre94s-projects.vercel.app/'
             />
           </Col>
         </Row>
