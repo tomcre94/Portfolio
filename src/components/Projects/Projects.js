@@ -34,7 +34,13 @@ function Projects() {
               isBlog={false}
               title='Booki'
               description='Project to create the frontend of an online accommodation booking site : Booki.'
-              detailedDescription='Project as part of my web developer training at Openclassroom. The aim of this exercise was to discover, understand and get to grips with the basic website creation HTML and CSS. Project to create the of an online accommodation booking site : Booki.'
+              detailedDescription='Project as part of my web developer training at Openclassroom. 
+              
+              The assignment was to help BOOKI develop a website that would enable users to find accommodation and activities in the city of their choice. 
+              
+              The interest for me has been to discover, understand and get to grips with the basic website creation HTML and CSS. 
+              
+              Project to create the of an online accommodation booking site : Booki.'
               ghLink='https://github.com/tomcre94/Projet-n2.git'
               carouselImages={bookiImages}
             />
@@ -42,7 +48,7 @@ function Projects() {
 
           <Col md={4} className='project-card'>
             <ProjectCards
-              imgPath={kasaImages[0]}
+              imgPath={kasaImages[1]}
               isBlog={false}
               title='Kasa'
               description='Development of a website for an apartment rental company.'
