@@ -41,8 +41,6 @@ function ProjectCards(props) {
             <FaPlus />
             &nbsp; Read more
           </Button>
-          {/* <br />
-          <br /> */}
           &ensp; &ensp;
           <Button
             className='gitHubButton'
